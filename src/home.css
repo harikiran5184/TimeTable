@@ -1,0 +1,235 @@
+th,tr{
+    margin: 10px;
+}
+.t{
+    border: 5px solid ;
+    border-radius: 2px;
+    border-color: rgba(175, 5, 161, 1) white rgba(175, 5, 161, 1) white;
+    background-color:black;
+    margin-top: 0%;
+    font-size: 27px;
+    animation: border 2s infinite alternate;
+    animation: table 3s;
+}
+.av{
+    border: 2px solid white;
+    background-color:midnightblue;
+    position: fixed;
+    top:35%;
+    right: 4%;
+    font-size: 30px;
+}
+th{
+    border-bottom: 1px solid white;
+    animation: border 2s infinite alternate-reverse;
+}
+body{
+    background-color: black;
+    
+}
+th{
+    border: 1px solid white;
+    padding: 10px;
+}
+.lunch{
+    border: none;
+}
+
+.logout{
+    position: fixed;
+    top:10px;
+    right:20px;
+    
+}
+.logout button{
+    width: 150px;
+}
+@keyframes border{
+    from{
+        border-color: white rgba(175, 5, 161, 1) white rgba(175, 5, 161, 1);
+        color: white;
+    }
+    to{
+        border-color: rgba(175, 5, 161, 1) white rgba(175, 5, 161, 1) white;
+        color: rgba(175, 5, 161, 1);
+    }
+}
+.ani1{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 5px;
+/*     border: 3px solid yellow;*/
+    box-shadow: 3px 3px 2px rgba(175, 5, 161, 1);
+    transform: rotate(-50deg); 
+    position: fixed;
+    top: 15px;   
+    animation: slide 9s  alternate;
+}
+@keyframes slide{
+    0%{
+        position: fixed;
+    top: 15px;
+    left: 0;
+    rotate: 0deg;
+    }
+    50%{
+        position: fixed;
+    top: 15px;
+    left: 27%;
+    rotate: 360deg;
+    }
+    100%{
+        position: fixed;
+    top: 15px;
+    left: 0;
+    rotate: 0deg;
+    }
+}
+.ani2,.ani3{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: none;
+    border: 1px solid white;
+    box-shadow: 0px 4px 0px gold;
+}
+.ani2{
+    position: fixed;
+    top:0px;
+    left:40%;
+    animation: ball1 2s;
+    opacity: 0;
+}
+.ani3{
+    position: fixed;
+    top:0px;
+    left:50%;
+    opacity: 0;
+    animation: ball2 2s;
+}
+@keyframes ball1{
+    0%{
+        position: fixed;
+    top:0px;
+    left:40%;
+    opacity: 1;
+    }
+    50%{
+        position: fixed;
+    top:45%;
+    left:40%;
+    opacity: 1;
+    }
+    60%{
+        position: fixed;
+    top:42%;
+    left:40%;
+    opacity: 1;
+    }
+    80%{
+        position: fixed;
+    top:45%;
+    left:40%;
+    opacity: 1;
+    }
+    90%{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(175, 5, 161, 1);
+        opacity: 0;
+    }
+}
+@keyframes ball2{
+    0%{
+        position: fixed;
+    top:0px;
+    left:50%;
+    opacity: 1;
+    }
+    50%{
+        position: fixed;
+    top:45%;
+    left:50%;
+    opacity: 1;
+    }
+    60%{
+        position: fixed;
+    top:42%;
+    left:50%;
+    opacity: 1;
+    }
+    80%{
+        position: fixed;
+    top:45%;
+    left:50%;
+    opacity: 1;
+    }
+    90%{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(175, 5, 161, 1);
+        opacity: 0;
+    }
+}
+@keyframes table{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.ass input{
+    background-color: black;
+    color: white;
+    animation: border 2s infinite alternate-reverse;
+}
+.ass h1{
+    color: rgba(175, 5, 161, 1);
+}
+.ass span{
+    color: white;
+}
+.rp{
+    background-color: rgb(151, 149, 28);
+}
+.ahome button{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition-duration: .9s;
+}
+.ahome button:hover{
+    width: 210px;
+    height: 210px;
+    color: white;
+    background-color: rgba(175, 5, 221, 1);
+    transition-duration: .9s;
+}
+.ahome a{
+    margin: 50px;
+}
+.ah1{
+    cursor: pointer;
+}
+.ah1:hover{
+    color: white;
+    transition-duration: .9s;
+}
+.edit select{
+    margin: 10px;
+}
+.edit #subject1,.edit #subject,.edit #fac,.edit #fac1{
+    display: none;
+}

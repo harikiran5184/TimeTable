@@ -1,0 +1,222 @@
+.login{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(119, 8, 108, 0.493);
+    position: fixed;
+    top:35%;
+    left:30%;
+    transition-duration: .7s;
+    border-radius: 10px;
+    animation: ani 2s;
+    opacity: .3;
+}
+.login:hover{
+    opacity: 1;
+    transition-duration: .7s;
+    
+}
+.log{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: none;
+    box-shadow: 3px 0px 0px rgb(255, 4, 230);
+    z-index: -1;
+}
+.a1{
+    position: absolute;
+    top:20%;
+    left:45%;
+    transform: rotate(90deg);
+    animation: a .4s 2 alternate;
+}
+.a2{
+    position: absolute;
+    top:20%;
+    left:52%;
+    transform: rotate(90deg);
+    animation: a .4s 2 alternate;
+    animation-delay: .8s;
+}
+.a3{
+    position: absolute;
+    top:20%;
+    left:59%;
+    transform: rotate(90deg);
+    animation: a .4s 2 alternate;
+    animation-delay: 1.5s;
+    
+}
+@keyframes a{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: rgb(255, 4, 230);
+    }
+}
+@keyframes a1{
+    from{
+        transform: rotate(170deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+}
+@keyframes whi{
+    from{
+        box-shadow: 3px 0px 0px rgb(255, 4, 230);
+    }
+    to{
+        box-shadow: -3px 0px 0px rgb(255, 4, 230);
+
+    }
+}
+body{
+    background-color:midnightblue;
+    color:white;
+}
+input{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    color:darkslateblue;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+input:focus{
+    background-color: rgba(175, 5, 161, 0.322);
+    color: white;
+}
+form{
+    margin-top: 10%;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pass{
+    margin-top: 4%;
+}
+button{
+    width: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: rgb(127, 29, 207);
+    margin-top: 5%;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(175, 5, 161, 0.322);
+    color: white;
+}
+.ic{
+    font-size: 40px;
+    /* font-weight: bolder; */
+    position: fixed;
+    top:45%;
+    left:60.8%;
+    width: 100px;
+    height: 100px;
+    border-radius:  20px 100px 100px 20px ;
+    background-color: rgba(225, 225, 225, .3);
+    text-align: center;
+    cursor: pointer;
+}
+.ic h1{
+    margin: 0;
+    rotate: 90deg;
+    margin-right: 10px;
+}
+.ic:hover{
+    background-color: rgba(5, 230, 173, 0.3);
+}
+.one{
+    position: fixed;
+    top:35%;
+    left:55%;
+    height: 500px;
+    z-index: 1;
+    opacity: .3;
+    transition-duration: .9s;
+    animation: ani1 2s;
+}
+.one:hover{
+    transform: opacity;
+    opacity: 1;
+    transition-duration: .9s;
+}
+.one:hover ~ .main{
+    transform: opacity;
+    opacity: .3;
+    transition-duration: .9s;
+}
+.e{
+    margin-left: 22px;
+}
+.e1{
+    margin-left: -34px;
+}
+select{
+    background-color: rgba(225, 225, 225, .3);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+select:focus ~ option{
+    background-color: rgba(225, 225, 225, .3);
+    color: white;
+}
+select:focus{
+    background-color:rgba(175, 5, 161);
+    color: white;
+}
+.one button{
+    width:200px;
+    margin-top: 50px;
+}
+@keyframes ani{
+    0%{
+        position: fixed;
+        left:30%;
+        opacity: 1;
+    }
+    50%{
+        position: fixed;
+        left:25%;
+        opacity: 1;
+    }
+    100%{
+        position: fixed;
+        left:30%;
+        opacity: .3;
+    }
+
+}
+@keyframes ani1{
+    0%{
+        position: fixed;
+        left:55%;
+    }
+    50%{
+        position: fixed;
+        left:60%;
+    }
+    100%{
+        position: fixed;
+        left:55%;
+    }
+
+}

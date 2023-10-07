@@ -1,0 +1,58 @@
+.admin button,.test1 button{
+    width: 150px;
+    margin: 0px;
+    margin-left: 45%;
+    margin-top: 40px;
+    background-color: purple;
+    color: white;
+}
+.admin button:hover,.test1 button:hover{
+    background-color: white;
+    color: purple;
+}
+.test1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.test1 label,.test1 h1{
+    color:rgba(175, 5, 161,.8);
+}
+.test1 span{
+    color: white;
+}
+.admin .a1,.admin .a2,.admin .a3{
+    top:7%;
+}
+.admin .a1{
+    left:37%
+}
+.admin .a2{
+    left:45%
+}
+.admin .a3{
+    left:53%
+}
+.admin select{
+    margin-bottom: 10px;
+}
+.admin label{
+    margin-left: 42%;
+    color: rgba(175, 5, 161,1);
+}
+.edit label{
+    color: rgba(175, 5, 161,1);
+}
+.fac{
+    margin-left: 40%;
+}
+.ass button{
+    margin-left: 50%;
+    width: 180px;
+}
+.create{
+    transition-duration: .7s;
+}
+.create:hover{
+    opacity: 1;
+    transition-duration: .7s;
+}
